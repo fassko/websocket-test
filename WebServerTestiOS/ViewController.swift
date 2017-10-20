@@ -1,12 +1,13 @@
 //
 //  ViewController.swift
-//  WebServerTest
+//  WebServerTestiOS
 //
-//  Created by Kristaps Grinbergs on 23/08/2017.
+//  Created by Kristaps Grinbergs on 20/10/2017.
 //  Copyright © 2017 qminder. All rights reserved.
 //
 
 import UIKit
+
 import Starscream
 
 class ViewController: UIViewController, WebSocketDelegate, WebSocketPongDelegate {
@@ -15,7 +16,8 @@ class ViewController: UIViewController, WebSocketDelegate, WebSocketPongDelegate
   
   let queue = DispatchQueue(label: "pingPongQueue")
   
-  
+  @IBOutlet weak var status: UILabel!
+
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -25,10 +27,16 @@ class ViewController: UIViewController, WebSocketDelegate, WebSocketPongDelegate
   
   func websocketDidConnect(socket: WebSocketClient) {
     print("websocket is connected")
+    
+    status.text = "Connected"
+    
+    sendPing()
   }
   
   func websocketDidDisconnect(socket: WebSocketClient, error: Error?) {
     print("websocket is disconnected: \(String(describing: error))")
+    
+    status.text = "Disconnected"
   }
   
   func websocketDidReceiveMessage(socket: WebSocketClient, text: String) {
@@ -47,5 +55,10 @@ class ViewController: UIViewController, WebSocketDelegate, WebSocketPongDelegate
     guard socket.isConnected else { return }
     
     socket.write(ping: "PING".data(using: .utf8)!)
+    
+    queue.asyncAfter(deadline: .now() + .seconds(5), execute: {[weak self] in
+      self?.sendPing()
+    })
   }
+
 }

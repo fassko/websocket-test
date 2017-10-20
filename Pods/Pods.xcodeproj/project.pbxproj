@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5EF36C762459EC67EACCD8AFBC9A7E /* Starscream-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A4762CFD216894D483DE26E641DDD9 /* Starscream-iOS-dummy.m */; };
+		0BBC83069BD7F765ED196256E6BF58B3 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5316B8FE0A97061E7A60B0145C7675 /* SSLSecurity.swift */; };
+		0F10199001D921691A601ADBD037DFA0 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A199EB201A030DD0E9C980A37F99B94 /* WebSocket.swift */; };
+		1CFEF89BB5314CECA3DAF1EF0A6C43C3 /* Starscream-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DBAC3A9A4821BC3F1F97CAB65A41D5 /* Starscream-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9C47DC57FBDC04615F4E5EF1D5E0AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		2E1D9D20FABE92B3981F6E1FC757E477 /* Pods-WebServerTestiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A23CF4006E94069DF3384F798E839FC /* Pods-WebServerTestiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38CE56DA59B54F8B37B9028CE8308C52 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60C9F33BD4DDCF3118746EB2C9AE27 /* Compression.swift */; };
+		4B2EBF4E6EB456B4253ECB8445A6F812 /* Starscream-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8200F7A7619C8FE39EAA4B94C35ABC97 /* Starscream-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA73C6DC00DDAE9F531ECF247392AD2 /* Pods-WebServerTestiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD2898F02B236E322A0C88A6906477 /* Pods-WebServerTestiOS-dummy.m */; };
+		55BF2B1070584DAA56D4002284D11726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		845F15C697DDCD3A63E4D5DFF91DEAD5 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A199EB201A030DD0E9C980A37F99B94 /* WebSocket.swift */; };
+		925FEBAAF54115BA9943C5EE56ADF414 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60C9F33BD4DDCF3118746EB2C9AE27 /* Compression.swift */; };
+		B21B1DD9D03031AA383427246549AB1C /* Pods-WebServerTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 990D8DC2AD9011D9A49C3C3FF5E517E2 /* Pods-WebServerTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCAEC0D117F378038EFFB4F039739701 /* Starscream-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8AFEF2D04FE4CE38235D866C4EAB78 /* Starscream-tvOS-dummy.m */; };
+		D086E371F3D2277D10D6A5DE0757802F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		E29F456F0DF6F98C9808946F1E604CD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		F5C63756AB4BAE9B9D776862071211AD /* Pods-WebServerTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C41335EB3DD1401C0A3AAAF2E9B3DF /* Pods-WebServerTest-dummy.m */; };
+		F8D9377B53D6E1D77560BB0703475497 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5316B8FE0A97061E7A60B0145C7675 /* SSLSecurity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		531BE6BFB326204F0F2B910E32797463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B1EA9A1481C8AA7C7C184AFE1AF61F;
+			remoteInfo = "Starscream-iOS";
+		};
+		91EAE0865F9BF88B8923F4B7169D0F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4695787A018D592C5E115ED0BC7452B5;
+			remoteInfo = "Starscream-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FB15E75D440A9CBAEF55C07FAF1C9D /* Pods-WebServerTestiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebServerTestiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		228E8FC18603F0533398C940D01039C1 /* Pods-WebServerTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebServerTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		262C9C04A029DA3701F398A3EC27BE91 /* Pods-WebServerTestiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebServerTestiOS-frameworks.sh"; sourceTree = "<group>"; };
+		27A4762CFD216894D483DE26E641DDD9 /* Starscream-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-iOS-dummy.m"; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		30A74A1F6150378899F41C6F9F3FBBDE /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = "Starscream-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A199EB201A030DD0E9C980A37F99B94 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/WebSocket.swift; sourceTree = "<group>"; };
+		3F304DDDABC4B9493AB5D344E79890F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6C2548D8051C85E3C9EDC6D16EE83E /* Pods-WebServerTestiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WebServerTestiOS.modulemap"; sourceTree = "<group>"; };
+		450019476898D8F7E66550B199404E55 /* Pods-WebServerTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WebServerTest.modulemap"; sourceTree = "<group>"; };
+		4645A43F8A14C729C5A2BE553F48FC3D /* Pods-WebServerTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebServerTest-frameworks.sh"; sourceTree = "<group>"; };
+		4AF2396EB4F645504B8D55C26E946B07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57DBAC3A9A4821BC3F1F97CAB65A41D5 /* Starscream-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-iOS-umbrella.h"; sourceTree = "<group>"; };
+		59DD67E4ACF16D2E3432FA1EAB3164D5 /* Pods-WebServerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebServerTest.release.xcconfig"; sourceTree = "<group>"; };
+		60DEDC13EA6C23D3528262B07515AEC7 /* Pods_WebServerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WebServerTest.framework; path = "Pods-WebServerTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DF5716CC7F68A19063C364A1F52BA3 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = "Starscream-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627EC454103612E9E6E3FEEE5370E681 /* Pods-WebServerTestiOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebServerTestiOS-resources.sh"; sourceTree = "<group>"; };
+		701B33A905E61B98709887ED9F73AFEB /* Starscream-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Starscream-tvOS.xcconfig"; path = "../Starscream-tvOS/Starscream-tvOS.xcconfig"; sourceTree = "<group>"; };
+		794EF5077D48122048EB576033455B40 /* Pods-WebServerTestiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebServerTestiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A23CF4006E94069DF3384F798E839FC /* Pods-WebServerTestiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebServerTestiOS-umbrella.h"; sourceTree = "<group>"; };
+		7FFD2898F02B236E322A0C88A6906477 /* Pods-WebServerTestiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebServerTestiOS-dummy.m"; sourceTree = "<group>"; };
+		8200F7A7619C8FE39EAA4B94C35ABC97 /* Starscream-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Starscream-tvOS-umbrella.h"; path = "../Starscream-tvOS/Starscream-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		855F01082814474B74388946ED668827 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B5104465C816B32B2CE5E0E19B52FA /* Starscream-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-iOS-prefix.pch"; sourceTree = "<group>"; };
+		990D8DC2AD9011D9A49C3C3FF5E517E2 /* Pods-WebServerTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebServerTest-umbrella.h"; sourceTree = "<group>"; };
+		9D9C038BAACCD11C62686E721A16EB3C /* Pods_WebServerTestiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WebServerTestiOS.framework; path = "Pods-WebServerTestiOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2EE15801C0857EC6D295C6B8DD2AB5 /* Pods-WebServerTestiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebServerTestiOS.release.xcconfig"; sourceTree = "<group>"; };
+		AB2CD87D3E5B5B58AB662591B87A8A18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Starscream-tvOS/Info.plist"; sourceTree = "<group>"; };
+		AB5316B8FE0A97061E7A60B0145C7675 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/SSLSecurity.swift; sourceTree = "<group>"; };
+		AF7D8CAD192C354736D01F0F8EDF2B58 /* Pods-WebServerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebServerTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C41335EB3DD1401C0A3AAAF2E9B3DF /* Pods-WebServerTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebServerTest-dummy.m"; sourceTree = "<group>"; };
+		B66EACAE14B821FB513A085EB4579A6D /* Starscream-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Starscream-tvOS-prefix.pch"; path = "../Starscream-tvOS/Starscream-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		B6DE5A3B219A25FFF29AAB9175B52BB7 /* Starscream-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Starscream-iOS.modulemap"; sourceTree = "<group>"; };
+		BBB914A1DC0883A46BB8A0F94CCBA67D /* Starscream-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Starscream-iOS.xcconfig"; sourceTree = "<group>"; };
+		BD9C6D847EAF94D2C06FA4CBBD70E1F4 /* Pods-WebServerTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebServerTest-resources.sh"; sourceTree = "<group>"; };
+		BE8B138907ECF6E55A43A902010F45A2 /* Pods-WebServerTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebServerTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEE516D9FBE5DD1267DF25A9895B307E /* Starscream-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Starscream-tvOS.modulemap"; path = "../Starscream-tvOS/Starscream-tvOS.modulemap"; sourceTree = "<group>"; };
+		C9307A0901C8B97DD314E27C3B683C6A /* Pods-WebServerTestiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebServerTestiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8AFEF2D04FE4CE38235D866C4EAB78 /* Starscream-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Starscream-tvOS-dummy.m"; path = "../Starscream-tvOS/Starscream-tvOS-dummy.m"; sourceTree = "<group>"; };
+		FC60C9F33BD4DDCF3118746EB2C9AE27 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BA0096BF65CE7BD0C3A4206560B330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D086E371F3D2277D10D6A5DE0757802F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803A98EB2FEDBB26A08969944026E581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BF2B1070584DAA56D4002284D11726 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E02FA5F4D067DBFC314D812416BE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9C47DC57FBDC04615F4E5EF1D5E0AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE559F39DD7CF9C46DC1053532EFA2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29F456F0DF6F98C9808946F1E604CD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1652F0CB1B0374184BECE9B9933FA7D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				855F01082814474B74388946ED668827 /* Info.plist */,
+				AB2CD87D3E5B5B58AB662591B87A8A18 /* Info.plist */,
+				B6DE5A3B219A25FFF29AAB9175B52BB7 /* Starscream-iOS.modulemap */,
+				BBB914A1DC0883A46BB8A0F94CCBA67D /* Starscream-iOS.xcconfig */,
+				27A4762CFD216894D483DE26E641DDD9 /* Starscream-iOS-dummy.m */,
+				97B5104465C816B32B2CE5E0E19B52FA /* Starscream-iOS-prefix.pch */,
+				57DBAC3A9A4821BC3F1F97CAB65A41D5 /* Starscream-iOS-umbrella.h */,
+				BEE516D9FBE5DD1267DF25A9895B307E /* Starscream-tvOS.modulemap */,
+				701B33A905E61B98709887ED9F73AFEB /* Starscream-tvOS.xcconfig */,
+				CB8AFEF2D04FE4CE38235D866C4EAB78 /* Starscream-tvOS-dummy.m */,
+				B66EACAE14B821FB513A085EB4579A6D /* Starscream-tvOS-prefix.pch */,
+				8200F7A7619C8FE39EAA4B94C35ABC97 /* Starscream-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream-iOS";
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		3472A81D0DB31608B2D83C2463248903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B73A29013433F662DEE2C5F89F94E23E /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		415D71CD6086D4A3E4B936CAC72F51A4 /* Pods-WebServerTestiOS */ = {
+			isa = PBXGroup;
+			children = (
+				4AF2396EB4F645504B8D55C26E946B07 /* Info.plist */,
+				3F6C2548D8051C85E3C9EDC6D16EE83E /* Pods-WebServerTestiOS.modulemap */,
+				794EF5077D48122048EB576033455B40 /* Pods-WebServerTestiOS-acknowledgements.markdown */,
+				03FB15E75D440A9CBAEF55C07FAF1C9D /* Pods-WebServerTestiOS-acknowledgements.plist */,
+				7FFD2898F02B236E322A0C88A6906477 /* Pods-WebServerTestiOS-dummy.m */,
+				262C9C04A029DA3701F398A3EC27BE91 /* Pods-WebServerTestiOS-frameworks.sh */,
+				627EC454103612E9E6E3FEEE5370E681 /* Pods-WebServerTestiOS-resources.sh */,
+				7A23CF4006E94069DF3384F798E839FC /* Pods-WebServerTestiOS-umbrella.h */,
+				C9307A0901C8B97DD314E27C3B683C6A /* Pods-WebServerTestiOS.debug.xcconfig */,
+				9E2EE15801C0857EC6D295C6B8DD2AB5 /* Pods-WebServerTestiOS.release.xcconfig */,
+			);
+			name = "Pods-WebServerTestiOS";
+			path = "Target Support Files/Pods-WebServerTestiOS";
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				3472A81D0DB31608B2D83C2463248903 /* Pods */,
+				A02D069ECBEEB7A1DD7880F660E24A96 /* Products */,
+				A00E241F06D41F3B26B91AC30B5A5EDB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A00E241F06D41F3B26B91AC30B5A5EDB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25305E8EFF84A8022838AD007EA584F /* Pods-WebServerTest */,
+				415D71CD6086D4A3E4B936CAC72F51A4 /* Pods-WebServerTestiOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A02D069ECBEEB7A1DD7880F660E24A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60DEDC13EA6C23D3528262B07515AEC7 /* Pods_WebServerTest.framework */,
+				9D9C038BAACCD11C62686E721A16EB3C /* Pods_WebServerTestiOS.framework */,
+				61DF5716CC7F68A19063C364A1F52BA3 /* Starscream.framework */,
+				30A74A1F6150378899F41C6F9F3FBBDE /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25305E8EFF84A8022838AD007EA584F /* Pods-WebServerTest */ = {
+			isa = PBXGroup;
+			children = (
+				3F304DDDABC4B9493AB5D344E79890F6 /* Info.plist */,
+				450019476898D8F7E66550B199404E55 /* Pods-WebServerTest.modulemap */,
+				BE8B138907ECF6E55A43A902010F45A2 /* Pods-WebServerTest-acknowledgements.markdown */,
+				228E8FC18603F0533398C940D01039C1 /* Pods-WebServerTest-acknowledgements.plist */,
+				B1C41335EB3DD1401C0A3AAAF2E9B3DF /* Pods-WebServerTest-dummy.m */,
+				4645A43F8A14C729C5A2BE553F48FC3D /* Pods-WebServerTest-frameworks.sh */,
+				BD9C6D847EAF94D2C06FA4CBBD70E1F4 /* Pods-WebServerTest-resources.sh */,
+				990D8DC2AD9011D9A49C3C3FF5E517E2 /* Pods-WebServerTest-umbrella.h */,
+				AF7D8CAD192C354736D01F0F8EDF2B58 /* Pods-WebServerTest.debug.xcconfig */,
+				59DD67E4ACF16D2E3432FA1EAB3164D5 /* Pods-WebServerTest.release.xcconfig */,
+			);
+			name = "Pods-WebServerTest";
+			path = "Target Support Files/Pods-WebServerTest";
+			sourceTree = "<group>";
+		};
+		B73A29013433F662DEE2C5F89F94E23E /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				FC60C9F33BD4DDCF3118746EB2C9AE27 /* Compression.swift */,
+				AB5316B8FE0A97061E7A60B0145C7675 /* SSLSecurity.swift */,
+				3A199EB201A030DD0E9C980A37F99B94 /* WebSocket.swift */,
+				1652F0CB1B0374184BECE9B9933FA7D9 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30DE76CE2E354AFAB7710A007E611049 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2EBF4E6EB456B4253ECB8445A6F812 /* Starscream-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DCB90661B4F36888BBBA825B783A8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1D9D20FABE92B3981F6E1FC757E477 /* Pods-WebServerTestiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E155DDA3F54686A8F678B045CF08F63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21B1DD9D03031AA383427246549AB1C /* Pods-WebServerTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EF624E0C773C66E2B3F5EA3122E501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFEF89BB5314CECA3DAF1EF0A6C43C3 /* Starscream-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2971FA604A130C94FE04A84D210A3BE7 /* Pods-WebServerTestiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E385AF4D320CD843D3D4EF5B8C773F7 /* Build configuration list for PBXNativeTarget "Pods-WebServerTestiOS" */;
+			buildPhases = (
+				62F7BC49D8A2E86B5B0563C2F11AF927 /* Sources */,
+				CE559F39DD7CF9C46DC1053532EFA2AF /* Frameworks */,
+				87DCB90661B4F36888BBBA825B783A8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E985F5C970C91CA22BB5314F573DF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-WebServerTestiOS";
+			productName = "Pods-WebServerTestiOS";
+			productReference = 9D9C038BAACCD11C62686E721A16EB3C /* Pods_WebServerTestiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44B1EA9A1481C8AA7C7C184AFE1AF61F /* Starscream-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56479AAC821FC1E6C09C946B7527F839 /* Build configuration list for PBXNativeTarget "Starscream-iOS" */;
+			buildPhases = (
+				B2B001C1DE88BA5077575070157CFC7D /* Sources */,
+				803A98EB2FEDBB26A08969944026E581 /* Frameworks */,
+				A9EF624E0C773C66E2B3F5EA3122E501 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starscream-iOS";
+			productName = "Starscream-iOS";
+			productReference = 61DF5716CC7F68A19063C364A1F52BA3 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4695787A018D592C5E115ED0BC7452B5 /* Starscream-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5630EDFEBC4A22A4828DF6DF07ADDDF7 /* Build configuration list for PBXNativeTarget "Starscream-tvOS" */;
+			buildPhases = (
+				3A3B35A9B8CBF2376F3D2D15960283FA /* Sources */,
+				83E02FA5F4D067DBFC314D812416BE2C /* Frameworks */,
+				30DE76CE2E354AFAB7710A007E611049 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starscream-tvOS";
+			productName = "Starscream-tvOS";
+			productReference = 30A74A1F6150378899F41C6F9F3FBBDE /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D54989ED1D7FF52E7C759FE01A57042C /* Pods-WebServerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0C03D32645A130AEE778873A71708E /* Build configuration list for PBXNativeTarget "Pods-WebServerTest" */;
+			buildPhases = (
+				1E78C6EA5B7FD5CD540959C0FADFD9A9 /* Sources */,
+				01BA0096BF65CE7BD0C3A4206560B330 /* Frameworks */,
+				8E155DDA3F54686A8F678B045CF08F63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9EB747929ACE961A742A01827495044 /* PBXTargetDependency */,
+			);
+			name = "Pods-WebServerTest";
+			productName = "Pods-WebServerTest";
+			productReference = 60DEDC13EA6C23D3528262B07515AEC7 /* Pods_WebServerTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A02D069ECBEEB7A1DD7880F660E24A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54989ED1D7FF52E7C759FE01A57042C /* Pods-WebServerTest */,
+				2971FA604A130C94FE04A84D210A3BE7 /* Pods-WebServerTestiOS */,
+				44B1EA9A1481C8AA7C7C184AFE1AF61F /* Starscream-iOS */,
+				4695787A018D592C5E115ED0BC7452B5 /* Starscream-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E78C6EA5B7FD5CD540959C0FADFD9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C63756AB4BAE9B9D776862071211AD /* Pods-WebServerTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3B35A9B8CBF2376F3D2D15960283FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CE56DA59B54F8B37B9028CE8308C52 /* Compression.swift in Sources */,
+				0BBC83069BD7F765ED196256E6BF58B3 /* SSLSecurity.swift in Sources */,
+				CCAEC0D117F378038EFFB4F039739701 /* Starscream-tvOS-dummy.m in Sources */,
+				845F15C697DDCD3A63E4D5DFF91DEAD5 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F7BC49D8A2E86B5B0563C2F11AF927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA73C6DC00DDAE9F531ECF247392AD2 /* Pods-WebServerTestiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B001C1DE88BA5077575070157CFC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925FEBAAF54115BA9943C5EE56ADF414 /* Compression.swift in Sources */,
+				F8D9377B53D6E1D77560BB0703475497 /* SSLSecurity.swift in Sources */,
+				0A5EF36C762459EC67EACCD8AFBC9A7E /* Starscream-iOS-dummy.m in Sources */,
+				0F10199001D921691A601ADBD037DFA0 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5E985F5C970C91CA22BB5314F573DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-iOS";
+			target = 44B1EA9A1481C8AA7C7C184AFE1AF61F /* Starscream-iOS */;
+			targetProxy = 531BE6BFB326204F0F2B910E32797463 /* PBXContainerItemProxy */;
+		};
+		F9EB747929ACE961A742A01827495044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-tvOS";
+			target = 4695787A018D592C5E115ED0BC7452B5 /* Starscream-tvOS */;
+			targetProxy = 91EAE0865F9BF88B8923F4B7169D0F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0516DFFCE53FA713E120E4FCF8E045A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		1EBE653FB4DA7EFFBED2ECB3C05B3C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7D8CAD192C354736D01F0F8EDF2B58 /* Pods-WebServerTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebServerTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebServerTest/Pods-WebServerTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebServerTest;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27BC606AF8FF5200D7067FCDF4A03EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DD67E4ACF16D2E3432FA1EAB3164D5 /* Pods-WebServerTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebServerTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebServerTest/Pods-WebServerTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebServerTest;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6743522A6E9F8D41B06636614B6F9069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701B33A905E61B98709887ED9F73AFEB /* Starscream-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-tvOS/Starscream-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-tvOS/Starscream-tvOS.modulemap";
+				PRODUCT_NAME = Starscream;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3A779B0C9900AFA4E103903904243AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701B33A905E61B98709887ED9F73AFEB /* Starscream-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-tvOS/Starscream-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-tvOS/Starscream-tvOS.modulemap";
+				PRODUCT_NAME = Starscream;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACEAABD40F4F14BC4BDE36B9745495E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		AFFE7656126A1E6A763A762228FED8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB914A1DC0883A46BB8A0F94CCBA67D /* Starscream-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-iOS/Starscream-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-iOS/Starscream-iOS.modulemap";
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF55AC6E070447D58855A5F2692BD4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB914A1DC0883A46BB8A0F94CCBA67D /* Starscream-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-iOS/Starscream-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-iOS/Starscream-iOS.modulemap";
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD74B7A3799BE53E0DE4BDE78155B57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9307A0901C8B97DD314E27C3B683C6A /* Pods-WebServerTestiOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebServerTestiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebServerTestiOS/Pods-WebServerTestiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebServerTestiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEDE3F0CA3AAB6BC1EE3EA8A162B6016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2EE15801C0857EC6D295C6B8DD2AB5 /* Pods-WebServerTestiOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebServerTestiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebServerTestiOS/Pods-WebServerTestiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebServerTestiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0516DFFCE53FA713E120E4FCF8E045A9 /* Debug */,
+				ACEAABD40F4F14BC4BDE36B9745495E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E385AF4D320CD843D3D4EF5B8C773F7 /* Build configuration list for PBXNativeTarget "Pods-WebServerTestiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD74B7A3799BE53E0DE4BDE78155B57E /* Debug */,
+				DEDE3F0CA3AAB6BC1EE3EA8A162B6016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0C03D32645A130AEE778873A71708E /* Build configuration list for PBXNativeTarget "Pods-WebServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE653FB4DA7EFFBED2ECB3C05B3C2A /* Debug */,
+				27BC606AF8FF5200D7067FCDF4A03EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5630EDFEBC4A22A4828DF6DF07ADDDF7 /* Build configuration list for PBXNativeTarget "Starscream-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A779B0C9900AFA4E103903904243AC /* Debug */,
+				6743522A6E9F8D41B06636614B6F9069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56479AAC821FC1E6C09C946B7527F839 /* Build configuration list for PBXNativeTarget "Starscream-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFE7656126A1E6A763A762228FED8C1 /* Debug */,
+				BF55AC6E070447D58855A5F2692BD4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
